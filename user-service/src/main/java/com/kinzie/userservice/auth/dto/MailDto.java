@@ -1,0 +1,12 @@
+package com.kinzie.userservice.auth.dto;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class MailDto {
+    private String email;	// 이메일 정보
+    private String code; // 메일 코드
+}
+
